@@ -17,7 +17,7 @@ export class InfoPaginaService {
     //Leer el archivo de Json
 
     this.http.get('assets/data/data-pagina.json')
-     .subscribe( (resp: InfoPagina) => {
+     .subscribe((resp: InfoPagina) => {
 
       this.loaded = true; 
       this.info = resp;
