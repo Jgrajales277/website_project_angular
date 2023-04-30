@@ -1,23 +1,23 @@
+
 /* You can add global styles to this file, and also import other style files */
 .my-element {
     display: inline-block;
     margin: 0 0.5rem;
-  
     animation: fadeIN; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 0.8s; /* don't forget to set a duration! */
-    
   }
 
-  
+
 /* SVG loading  Animation */
+
+html {
+  width: 94%;
+}
 body{
-  padding: 1em;
   background: white;
   color: #777;
   text-align: center;
   font-family: "Gill sans", sans-serif;
-  width: 80%;
-  margin: 0 auto;
 }
 
 
